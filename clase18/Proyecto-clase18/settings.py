@@ -55,7 +55,7 @@ ROOT_URLCONF = 'clase18.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'clase18.wsgi.application'
+#WSGI_APPLICATION = 'clase18.wsgi.application'
 
 
 # Database
